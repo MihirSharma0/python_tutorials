@@ -5,3 +5,5 @@ d = list(map(int,input("Enter elements separated by spaces = ").split()))
 e = tuple(map(int,input("Enter elements separated by spaces = ").split()))
 print("The datatype of a is = ", type(a))
 print("The datatype of b is = ", type(b))
+print("The datatype of c is = ", type(c))
+p
