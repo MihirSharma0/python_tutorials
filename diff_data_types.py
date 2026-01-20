@@ -1,13 +1,15 @@
 a = int(input("Enter a number = "))
 b = float(input("Enter a number = "))
 c = str(input("Enter a string = "))
-d = list(map(int,input("Enter elements separated by spaces = ").split()))
-e = tuple(map(int,input("Enter elements separated by spaces = ").split()))
+d = list(map(int, input("Enter elements separated by spaces = ").split()))
+e = tuple(map(int, input("Enter elements separated by spaces = ").split()))
+
 print("The datatype of a is = ", type(a))
 print("The datatype of b is = ", type(b))
 print("The datatype of c is = ", type(c))
 print("The datatype of d is = ", type(d))
 print("The datatype of e is = ", type(e))
+
 print("The value of a is = ", a)
 print("The value of b is = ", b)
 print("The value of c is = ", c)
