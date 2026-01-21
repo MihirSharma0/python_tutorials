@@ -54,4 +54,13 @@ ef main():
             timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
             filename = f"{output_dir}/screenshot_{i}_{timestamp}.png"
             pyautogui.screenshot(filename)
-   
+            print(f"[{i}/4] Saved screenshot: {filename}")
+            
+            # Wait
+            if i < 4: # Don't wait after the last one
+                print("Waiting 5 seconds...")
+                time.sleep(2)
+                
+        print("\nCompleted 4 iterations successfully!")
+        
+    excep
