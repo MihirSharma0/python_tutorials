@@ -45,3 +45,13 @@ ef main():
         for i in range(1, 5):
             # Click
             pyautogui.click(target_x, target_y)
+            print(f"[{i}/4] Clicked at ({target_x}, {target_y})")
+            
+            # Short delay to let UI react (optional, but good practice)
+            time.sleep(0.5) 
+            
+            # Screenshot
+            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+            filename = f"{output_dir}/screenshot_{i}_{timestamp}.png"
+            pyautogui.screenshot(filename)
+   
