@@ -63,4 +63,6 @@ ef main():
                 
         print("\nCompleted 4 iterations successfully!")
         
-    excep
+    except KeyboardInterrupt:
+        print("\n\nScript stopped by user.")
+    except Exception as e:
