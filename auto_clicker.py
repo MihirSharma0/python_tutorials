@@ -66,3 +66,7 @@ ef main():
     except KeyboardInterrupt:
         print("\n\nScript stopped by user.")
     except Exception as e:
+        print(f"\nAn error occurred: {e}")
+
+if __name__ == "__main__":
+    main()
