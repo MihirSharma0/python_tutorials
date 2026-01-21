@@ -25,3 +25,6 @@ ef main():
     default_folder = "auto_clicker_screenshots"
     folder_name = input(f"Enter output folder name (default: {default_folder}): ").strip() or default_folder
     
+    # Create absolute path in Documents folder
+    documents_path = os.path.expanduser("~/Documents")
+    output_dir = os.path.join(documents_path, folder_name)
