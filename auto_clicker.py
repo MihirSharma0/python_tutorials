@@ -3,7 +3,7 @@ import time
 import os
 from datetime import datetime
 
-ef main():
+def main():
     print("Auto Clicker & Screenshot Script")
     print("---------------------------------")
     print("This script will click a specific location and take a screenshot 4 times.")
