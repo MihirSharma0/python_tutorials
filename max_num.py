@@ -3,4 +3,4 @@ y = int(input("Enter another number = "))
 if x>y:
     print(x,"is the greater number among the two.")
 else:
-    print(y,
+    print(y,"is the greater number among the two.")
