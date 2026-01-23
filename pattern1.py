@@ -1,4 +1,9 @@
 for x in range(5):
     for y in range(5):
-        print(y,"*",end="")
+        print("*",end="")
+    print()  
+
+for x in range(5):
+    for y in range(x):
+        print("*",end="")
     print()  
