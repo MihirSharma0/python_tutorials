@@ -8,4 +8,4 @@ elif n3>=n2>=n1:
 elif n2>=n1>=n3:
     print("The sorted list is = ",n3,n1,n2)
 else:
-    
+    print("The sorted list is = ",n1,n2,n3)
