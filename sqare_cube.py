@@ -1,2 +1,2 @@
 n=int(intput("enter any number = "))
-print("the sqare")
+print("the sqare of the ")
