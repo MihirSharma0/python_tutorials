@@ -1,0 +1,30 @@
+Create a complete, responsive frontend for a web application called "FoodBridge" using Next.js (React) and Tailwind CSS.
+### Project Context & Vibe
+This is a hackathon project focused on Sustainability and Social Impact. The goal is to connect food donors (restaurants/individuals) with NGOs to reduce food waste and hunger.
+- Design Style: Do NOT make it look like a generic template. Use a modern, "Earth & Warmth" aesthetic.
+- Color Palette: Use deep emerald greens (representing sustainability) contrasted with warm amber/orange accents (representing food and urgency). Use a slightly off-white background (cream/slate-50) to reduce eye strain and increase contrast.
+- UI Feel: distinct, rounded corners (xl), soft shadows, and clear typography (Inter or Plus Jakarta Sans).
+### Core Features & Pages to Build
+Please create a multi-page structure or a unified dashboard view with the following sections:
+1. Landing Page (Hero Section):
+   - A compelling headline: "Bridging the Gap Between Surplus and Scarcity."
+   - A subheadline explaining the mission: Connecting donors with NGOs in real-time to solve hunger.
+   - Display "Impact Statistics" cards: Total Meals Donated, Collections Completed (use mock numbers) to show transparency.
+   - Two clear Call-to-Action buttons: "I want to Donate" and "I am an NGO."
+2. Role Selection / Login Mockup:
+   - A clean screen allowing the user to choose their role: "Donor" or "NGO." (Simulate the Google Login experience).
+3. Donor Dashboard (The "Give" Side):
+   - A form to "Post Surplus Food" containing exactly these fields: Food Type, Quantity (e.g., kg/servings), Location, and Expiry Time (Crucial).
+   - A "My Donations" list showing items with status badges: "Available" (Green), "Requested" (Yellow), "Collected" (Gray).
+4. NGO Dashboard (The "Get" Side):
+   - A "Live Feed" of available food donations displayed as high-contrast cards.
+   - Each card must have a "Request Pickup" button.
+   - A section for "My Requests" where they can mark a pickup as "Collected."
+### Technical Constraints
+- Use functional components and React Hooks.
+- Use 'framer-motion' for subtle entrance animations (make it feel premium).
+- Use 'lucide-react' for icons.
+- since there is no backend yet, use hardcoded Mock Data arrays for the donations so I can demo the flow to judges immediately.
+- Ensure the "Status" updates visually when buttons are clicked (even if just in local state).
+Make the UI/UX appealing for a presentation: plenty of whitespace, readable fonts, and interactive hover states.
+
